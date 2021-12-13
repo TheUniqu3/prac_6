@@ -9,7 +9,7 @@ public class SortingStudentsByGPA {
         this.name = name;
         this.score=score;
     }
-
+ // quicksort
     public static void sorter(SortingStudentsByGPA[] Students,int low, int high) {
         if (Students.length == 0)
             return;//завершить выполнение если длина массива равна 0
